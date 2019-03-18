@@ -1,0 +1,12 @@
+C:\Users\Asus\Desktop\os_lab\lab_4\lab2_160001049\9_1.c: In function 'main':
+C:\Users\Asus\Desktop\os_lab\lab_4\lab2_160001049\9_1.c:10:2: warning: implicit declaration of function 'pipe' [-Wimplicit-function-declaration]
+  pipe(p);
+  ^~~~
+C:\Users\Asus\Desktop\os_lab\lab_4\lab2_160001049\9_1.c:12:6: warning: implicit declaration of function 'fork' [-Wimplicit-function-declaration]
+  pid=fork();
+      ^~~~
+C:\Users\Asus\AppData\Local\Temp\ccZ0TtOW.o:9_1.c:(.text+0x1c): undefined reference to `pipe'
+C:\Users\Asus\AppData\Local\Temp\ccZ0TtOW.o:9_1.c:(.text+0x21): undefined reference to `fork'
+C:\Users\Asus\AppData\Local\Temp\ccZ0TtOW.o:9_1.c:(.text+0xd0): undefined reference to `fork'
+C:\Users\Asus\AppData\Local\Temp\ccZ0TtOW.o:9_1.c:(.text+0x17f): undefined reference to `fork'
+collect2.exe: error: ld returned 1 exit status
